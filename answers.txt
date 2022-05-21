@@ -1,0 +1,23 @@
+3.
+What has changed?
+# A new file was created named 'answers.txt'
+
+What do you think the > in the previous statement did when combined with the 
+ls command?
+# It looks like the '>' modifier sent the output of the ls command into the 
+new file 'answers.txt' as a list with new lines at the end.
+
+
+5.
+What does it say about 'newfile.txt'?
+# 'newfile.txt' is qued in the 'Changes to be committed' section.
+
+
+6.
+What does this command tell you about your files and their contents?
+# git diff is showing us the changes between versions of 'newfile.txt'.  It 
+denotes the old version with a '-' and the new version with a '+'.  In this 
+case it is telling us that 'This is my file listing' has been added to the 
+new version of 'newfile.txt'
+
+
